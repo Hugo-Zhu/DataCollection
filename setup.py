@@ -4,7 +4,7 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name='datacollection',
+    name='datacollection_just_for_hugo',
     version='1.0.0',
     packages=find_packages('src', exclude=['test*','example*']),
     url='https://github.com/Hugo-Zhu/DataCollection',
